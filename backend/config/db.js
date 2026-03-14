@@ -2,8 +2,8 @@ import mysql from "mysql2";
 
 const db = mysql.createPool({
   host: "localhost",
-  user: "root",            // 👈 IMPORTANT
-  password: "akbs@2005",
+  user: "",            // 👈 IMPORTANT (Enter your username and password)
+  password: "",
   database: "academic_report_generator",
   waitForConnections: true,
   connectionLimit: 10,
